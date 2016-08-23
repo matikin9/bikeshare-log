@@ -1,6 +1,11 @@
 from lxml import html
+from trip import Trip
 
 logfile = open("logs/2016-08.html", "r")
+webpage = open("docs/index.html", "rw")
+
+page = webpage.read()
+print(page)
 
 content = logfile.read()
 tree = html.fromstring(content)
@@ -50,3 +55,5 @@ for trip in logs:
     i += 1
 
 logfile.close()
+webpage.close()
+
