@@ -8,3 +8,6 @@ The Metro Bikeshare page shows your ride info, but doesn't yet provide it in a m
 
 ![screenshot of log](/images/bike-log-ss.png)
 
+## Resources Used
+
+* http://lxml.de/api/index.html
